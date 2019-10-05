@@ -14,20 +14,22 @@ string opt;
 int num = 0;
 string chc;
 double prc = 0;
+string choice;
+double cost = 0;
 ifstream inFS;
 vector<string> Options(0);
 vector<string> Choice(0);
-vector <int> Price(0);
+vector <double> Price(0);
 
 
 int main() {
-	inFS.open("snacks.txt");
-	if (!inFS.is_open()) {
+	inFS.open("snacks.txt");//opens the snacks file 
+	if (!inFS.is_open()) {//end program if file does open
 		cout << " Could not open file snacks.txt" << endl;
 		return 1;
 	}
 
-	while (!inFS.eof()) {
+	while (!inFS.eof()) {//assigns values of snacks to their given vectors
 		inFS >> opt;
 		inFS >> chc;
 		inFS >> prc;
@@ -36,18 +38,16 @@ int main() {
 		Price.push_back(prc);
 
 	}
-	inFS.close();
-	cout << "Welcome to the S&R luxary vendng machines " << endl << "Your options are the following" << endl;
-	for (int i = 0; i < Options.size(); ++i) {
-		menu(Options, Choice, i);
-		num += 1;
-		if ((num % 3) == 0) {
-			cout << endl;
-		}
+	inFS.close();// closes the file
 
-	}
 
-	cout << endl;
+	Main_Menu( Options,Choice);// creates the vending machines menu
+
+	choice = upper(choice);//makes sure each character is capitilized
+
+	cost = snack_cost(choice, Choice, Price);// returns the cost of the item if the user enter the correct symbol
+
+	cout << cost << endl;
 	system("pause");
 	return 0;
 }
