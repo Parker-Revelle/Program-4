@@ -1,0 +1,7 @@
+﻿  MAIN.cpp
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\MAIN.cpp(34,19): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\MAIN.cpp(34,19): warning C4244:         with
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\MAIN.cpp(34,19): warning C4244:         [
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\MAIN.cpp(34,19): warning C4244:             _Ty=int
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\MAIN.cpp(34,19): warning C4244:         ]
+  Program 4 - PR.vcxproj -> C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Debug\Program 4 - PR.exe
