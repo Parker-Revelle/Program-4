@@ -7,9 +7,11 @@
 #include<algorithm>
 #include<sstream>
 #include<cctype>
+#include "P4_Header.h"
 using namespace std;
 
 string opt;
+int num = 0;
 string chc;
 double prc = 0;
 ifstream inFS;
@@ -35,9 +37,17 @@ int main() {
 
 	}
 	inFS.close();
-	
+	cout << "Welcome to the S&R luxary vendng machines " << endl << "Your options are the following" << endl;
+	for (int i = 0; i < Options.size(); ++i) {
+		menu(Options, Choice, i);
+		num += 1;
+		if ((num % 3) == 0) {
+			cout << endl;
+		}
 
+	}
 
+	cout << endl;
 	system("pause");
 	return 0;
 }
