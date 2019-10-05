@@ -48,3 +48,21 @@ double snack_cost(string choice, vector<string> vect,vector<double> vect2) {
 	}
 	return cost;
 }
+
+double change_user(string choice, double cost,vector<string> vect, vector<string> vect2) {
+	double change;
+	double pay =0;
+	for (int i = 0; i < vect.size(); ++i) {
+		if (choice == vect.at(i)) {
+			choice = vect2.at(i);
+		}
+	}
+	cout << "In order to purchase " << choice << " you will need atleast $" << cost << " how much will you be paying with?[we don't accept currency over $20]" << endl;
+	while ((!(cin >> pay))|| (pay > 20)){
+		cout << "Make sure you enter a valid amount of money " << endl;
+		cin.clear();
+		cin.ignore(100, '\n');
+	}
+	change = pay - cost;
+	return change;
+}

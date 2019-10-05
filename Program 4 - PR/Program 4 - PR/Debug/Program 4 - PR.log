@@ -1,7 +1,2 @@
 ﻿  MAIN.cpp
-  P4_functions.cpp
-C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(23,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(36,20): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
-C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(44,20): warning C4018: '<': signed/unsigned mismatch
   Program 4 - PR.vcxproj -> C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Debug\Program 4 - PR.exe

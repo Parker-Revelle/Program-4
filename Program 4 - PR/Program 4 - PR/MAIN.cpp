@@ -16,6 +16,7 @@ string chc;
 double prc = 0;
 string choice;
 double cost = 0;
+double change =0;
 ifstream inFS;
 vector<string> Options(0);
 vector<string> Choice(0);
@@ -47,7 +48,9 @@ int main() {
 
 	cost = snack_cost(choice, Choice, Price);// returns the cost of the item if the user enter the correct symbol
 
-	cout << cost << endl;
+	change =  change_user(choice, cost, Choice, Options);// returns how much change the user needs
+
+	cout << change;
 	system("pause");
 	return 0;
 }
