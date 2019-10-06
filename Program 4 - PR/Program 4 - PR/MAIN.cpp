@@ -49,8 +49,8 @@ int main() {
 	cost = snack_cost(choice, Choice, Price);// returns the cost of the item if the user enter the correct symbol
 
 	change =  change_user(choice, cost, Choice, Options);// returns how much change the user needs
-
-	cout << change;
+	
+	exact_change(change);
 	system("pause");
 	return 0;
 }

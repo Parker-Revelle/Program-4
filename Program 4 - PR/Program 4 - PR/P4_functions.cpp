@@ -66,3 +66,71 @@ double change_user(string choice, double cost,vector<string> vect, vector<string
 	change = pay - cost;
 	return change;
 }
+
+void exact_change(double change) {// functions that takes change value and gives the proper amount of change
+	cout <<endl<< " Your change is " << change << " you will be given " << endl;
+	if (change != 0) {
+		int Tens = change / 10;
+		change -= (Tens * 10);
+		int fives = change / 5;
+		change -= (fives * 5);
+		int DA = change / 1;
+		change -= (DA * 1);
+		int Q = change / .25;
+		change -= (Q * .25);
+		int D = change / .1;
+		change -= (D * .1);
+		int N = change / .05;
+		change -= (N * .05);
+		int P = change / .01;
+
+		if (Tens > 1) {
+			cout << Tens << " Ten dollar bill" << endl;
+		}
+		else if (Tens == 1) {
+			cout << "1 Ten dollar bill" << endl;
+		}
+
+		if (fives > 1) {
+			cout << fives << " five dollar bill" << endl;
+		}
+		else if (fives == 1) {
+			cout << "1 five dollar bill" << endl;
+		}
+
+		if (DA > 1) {
+			cout << DA << " dollars" << endl;
+		}
+		else if (DA == 1) {
+			cout << "1 dollar" << endl;
+		}
+
+		if (Q > 1) {
+			cout << Q << " quarters" << endl;
+		}
+		else if (Q == 1) {
+			cout << "1 quarter" << endl;
+		}
+
+		if (D > 1) {
+			cout << D << " dimes" << endl;
+		}
+		else if (D == 1) {
+			cout << "1 dime" << endl;
+		}
+
+		if (N > 0) {
+			cout << N << " nickel" << endl;
+		}
+
+		if (P > 1) {
+			cout << P << " pennies" << endl;
+		}
+		else if (P == 1) {
+			cout << "1 penny" << endl;
+		}
+	}
+	else {
+		cout << "no change" << endl;
+	}
+}

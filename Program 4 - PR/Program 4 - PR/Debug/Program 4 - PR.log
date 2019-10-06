@@ -1,2 +1,13 @@
-﻿  MAIN.cpp
+﻿  P4_functions.cpp
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(23,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(36,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(44,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(55,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(73,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(75,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(77,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(79,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(81,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(83,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(85,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   Program 4 - PR.vcxproj -> C:\Users\Jahmi\OneDrive - University of Missouri\CS101\project_4\Program 4 - PR\Debug\Program 4 - PR.exe

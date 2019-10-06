@@ -11,3 +11,5 @@ double snack_cost(string choice, vector<string> vect, vector<double> vect2);
 void Main_Menu(vector<string> vect, vector<string> vec2);
 
 double change_user(string choice, double cost, vector<string> vect, vector<string> vect2);
+
+void exact_change(double change);

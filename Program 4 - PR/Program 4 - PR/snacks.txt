@@ -4,3 +4,6 @@ Water AC 3.25
 gummy-Worms BA 2.50
 Cheese-It's BB 1.25
 Pepsi BC 3.50
+powdered-donuts CA 1.50
+kool-aid CB .75
+Twix CC 1.75
