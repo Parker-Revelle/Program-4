@@ -23,6 +23,8 @@ vector<string> Choice(0);
 vector <double> Price(0);
 
 
+//Need to also keep a running tally and allow for multiple choices.
+
 int main() {
 	inFS.open("snacks.txt");//opens the snacks file 
 	if (!inFS.is_open()) {//end program if file does open
