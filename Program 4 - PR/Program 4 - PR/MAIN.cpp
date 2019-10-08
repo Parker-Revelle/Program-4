@@ -14,7 +14,7 @@ string opt;
 int num = 0;
 string chc;
 double prc = 0;
-string choice;
+string choice = "hello";
 double cost = 0;
 double change =0;
 ifstream inFS;
@@ -46,7 +46,7 @@ int main() {
 
 	Main_Menu( Options,Choice);// creates the vending machines menu
 
-	choice = upper(choice);//makes sure each character is capitilized
+	choice = upper(choice, Choice);//makes sure each character is capitilized
 
 	cost = snack_cost(choice, Choice, Price);// returns the cost of the item if the user enter the correct symbol
 

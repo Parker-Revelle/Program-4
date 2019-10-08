@@ -1,13 +1,15 @@
 ﻿  P4_functions.cpp
 C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(23,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(36,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(44,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(55,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(73,12): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(75,13): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(77,10): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(79,9): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(81,9): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(83,9): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(85,9): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(37,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(42,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(55,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(64,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(80,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(102,12): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(104,13): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(106,10): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(108,9): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(110,9): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(112,9): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Program 4 - PR\P4_functions.cpp(114,9): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
   Program 4 - PR.vcxproj -> C:\Users\pgrev\Desktop\Program-4\Program 4 - PR\Debug\Program 4 - PR.exe

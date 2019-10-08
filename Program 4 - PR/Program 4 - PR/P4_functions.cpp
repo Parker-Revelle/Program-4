@@ -31,10 +31,30 @@ void Main_Menu(vector<string> vect, vector<string> vec2) {
 	cout << endl;
 }
 
-string upper(string choice) {// upper casees the user string
+string upper(string choice, vector<string> vect) {// upper casees the user string
 	cin >> choice;
+	bool running = true;
 	for (int i = 0; i < choice.size(); ++i) {
 		choice[i] = toupper(choice[i]);
+	}
+	
+	while (running) {
+		for (int i = 0; i < vect.size(); i++) {
+			if (choice == vect.at(i)) {
+				return choice;
+				break;
+			}
+
+			
+
+		}
+		cout << "Please select a valid option >>> ";
+		cin.clear();
+		cin.ignore(100, '\n');
+		cin >> choice;
+		for (int i = 0; i < choice.size(); ++i) {
+			choice[i] = toupper(choice[i]);
+		}
 	}
 	return choice;
 }
@@ -45,7 +65,12 @@ double snack_cost(string choice, vector<string> vect,vector<double> vect2) {//  
 		if (choice == vect.at(i)) {
 			cost = vect2.at(i);
 		}
+
+		
 	}
+
+	
+
 	return cost;
 }
 
@@ -57,6 +82,10 @@ double change_user(string choice, double cost,vector<string> vect, vector<string
 			choice = vect2.at(i);
 		}
 	}
+
+	
+	
+
 	cout << "In order to purchase " << choice << " you will need atleast $" << cost << " how much will you be paying with?[we don't accept currency over $20]" << endl;
 	while ((!(cin >> pay))|| (pay > 20)){
 		cout << "Make sure you enter a valid amount of money " << endl;

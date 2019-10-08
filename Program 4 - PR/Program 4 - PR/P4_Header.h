@@ -4,7 +4,7 @@ using namespace std;// for some reason it would't let me use this functon withou
 
 void menu(vector<string> vect, vector<string> vec2, int i);
 
-string upper(string choice);
+string upper(string choice, vector<string> vect);
 
 double snack_cost(string choice, vector<string> vect, vector<double> vect2);
 
