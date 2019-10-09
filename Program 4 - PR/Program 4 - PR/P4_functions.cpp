@@ -12,16 +12,17 @@ using namespace std;
 
 
 
-void menu(vector<string> vect, vector<string> vec2,int i) {
-	cout << "|" << vec2.at(i) << " for " << vect.at(i) << "| " ;//base set up for menu
+void menu(vector<string> vect, vector<string> vec2,int i, vector<int> stocks) {
+	cout << left << "|" << vec2.at(i) << " for " << vect.at(i) << setw(7) << " (Stock: " << stocks.at(i) <<") | ";//base set up for menu
 
 }
 
-void Main_Menu(vector<string> vect, vector<string> vec2) {
+void Main_Menu(vector<string> vect, vector<string> vec2, vector<int> stocks) {
 	int num = 0;
 	cout << "Welcome to the S&R luxury vendng machines " << endl << "Your options are the following" << endl;
+	
 	for (int i = 0; i < vect.size(); ++i) {//creates the menu in full format
-		menu(vect, vec2, i);
+		menu(vect, vec2, i, stocks);
 		num += 1;
 		if ((num % 3) == 0) {
 			cout << endl;
@@ -31,7 +32,7 @@ void Main_Menu(vector<string> vect, vector<string> vec2) {
 	cout << endl;
 }
 
-string upper(string choice, vector<string> vect) {// upper casees the user string
+string upper(string choice, vector<string> vect, vector<int> &stocks) {// upper casees the user string
 	cin >> choice;
 	bool running = true;
 	for (int i = 0; i < choice.size(); ++i) {
@@ -41,8 +42,14 @@ string upper(string choice, vector<string> vect) {// upper casees the user strin
 	while (running) {
 		for (int i = 0; i < vect.size(); i++) {
 			if (choice == vect.at(i)) {
-				return choice;
-				break;
+				if (stocks.at(i) > 0) {
+					stocks.at(i) = stocks.at(i) - 1;
+					return choice;
+					break;
+				}
+				else {
+					cout << "This item is out of stock." << endl;
+				}
 			}
 
 			
@@ -56,6 +63,8 @@ string upper(string choice, vector<string> vect) {// upper casees the user strin
 			choice[i] = toupper(choice[i]);
 		}
 	}
+
+	
 	return choice;
 }
 
