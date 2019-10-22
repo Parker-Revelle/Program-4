@@ -10,6 +10,8 @@
 #include "P4_Header.h"
 using namespace std;
 
+
+//Generalized initiation of variables, used later
 string opt;
 int num = 0;
 string chc;
@@ -26,7 +28,7 @@ vector <double> Price(0);
 char userInp;
 
 
-//Need to also keep a running tally and allow for multiple choices.
+
 
 int main() {
 	inFS.open("snacks.txt");//opens the snacks file 
@@ -59,18 +61,20 @@ int main() {
 
 				change = change_user(choice, cost, Choice, Options);// returns how much change the user needs
 
-				exact_change(change);
+				exact_change(change); //checks to make sure change is correct
 			
 				cout << "Would you like to purchase another item? [Y] [N] >>>";
 				cin >> userInp;
+				//Checks to see if the user entered N or Y, if they did this loop doesnt run.
 				while (toupper(userInp) != 'Y' && toupper(userInp) != 'N') {
 					cout << "Invalid option. Would you like to purchase another item? [Y] [N] >>>";
 					cin >> userInp;
 				}
+				//Loops again, allowing another choice to be made
 				if (toupper(userInp) == 'Y') {
 					continue;
 				}
-
+				//Stops the while loop, ending the program
 				else if (toupper(userInp) == 'N') {
 					cout << "Thank you for shopping!" << endl;
 					running = false;
